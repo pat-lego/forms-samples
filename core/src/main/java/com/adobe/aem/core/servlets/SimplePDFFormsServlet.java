@@ -27,7 +27,7 @@ import com.adobe.fd.forms.api.FormsServiceException;
 
 @Component(service = { Servlet.class })
 @SlingServletResourceTypes(resourceTypes = "supportfd/forms", methods = "GET", extensions = "pdf")
-public class SimpleFormsServlet extends SlingSafeMethodsServlet {
+public class SimplePDFFormsServlet extends SlingSafeMethodsServlet {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
