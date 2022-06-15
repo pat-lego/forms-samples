@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DDX xmlns="http://ns.adobe.com/DDX/1.0/">
+	<XDP result="result" resolveAssets="relative" >
+		<XDP source="sample.xdp"/>
+	</XDP>
+</DDX>

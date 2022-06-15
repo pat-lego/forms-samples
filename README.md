@@ -135,3 +135,9 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D groupId="com.adobe.aem" \
  -D artifactId="forms.enablement" \
  -D aemVersion="6.5.12"
+
+ # Known Issues
+
+ - https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en
+ 
+ Make sure that the `sling.bootdelegation.class.com.rsa.jsafe.provider.JsafeJCE=com.rsa.*` is added to the ./conf/sling.properties file
