@@ -136,6 +136,12 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D artifactId="forms.enablement" \
  -D aemVersion="6.5.12"
 
+ # URL's
+
+ - http://localhost:4502/content/supportfd/forms.pdf
+ - http://localhost:4502/content/supportfd/forms.html?template=crx:///content/dam/formsanddocuments/test-xdp/AccountForm.xdp&dataRef=crx:///content/supportdata/accountData.xml
+ - http://localhost:4502/content/supportfd/assembler.forms
+
  # Known Issues
 
  - https://experienceleague.adobe.com/docs/experience-manager-65/forms/install-aem-forms/osgi-installation/install-configure-document-services.html?lang=en
