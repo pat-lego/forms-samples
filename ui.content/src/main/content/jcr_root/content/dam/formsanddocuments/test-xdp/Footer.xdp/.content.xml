@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="906ebffc-e161-4872-911b-575deed0ffbb">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-06-15T17:53:07.349Z"
+        jcr:lastModifiedBy="fd-service"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2022-06-15T17:53:06.111Z"
+            dam:sha1="4ad2101ec97089831045de89bc92dde799223307"
+            dam:size="{Long}14172"
+            dc:format="application/vnd.adobe.xdp+xml"
+            jcr:lastModified="{Date}2022-06-15T17:53:05.825Z"
+            jcr:lastModifiedBy="fd-service"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description=""
+            name="Footer.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title=""/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xfa generator="Designer_V6.3.0.20170316.1.928536" APIVersion="3.6.16347.0"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2022-06-09T21:02:40Z" uuid="68dc64df-7143-483f-967d-3b1e445923c2">
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+   <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform name="formData" layout="tb" locale="en_US" restoreState="auto">
+      <pageSet>
+         <pageArea name="Page1" id="Page1">
+            <contentArea w="215.9mm" h="279.4mm"/>
+            <medium stock="default" short="612pt" long="792pt"/>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform name="StandardLetterHeader" w="215.9mm" h="81.28mm">
+         <field name="NOTICE_TITLE" y="5.825mm" x="31.566mm" w="165.1mm" minH="4.445mm" access="readOnly">
+            <ui>
+               <textEdit/>
+            </ui>
+            <font weight="bold" size="12pt" typeface="Arial"/>
+            <para vAlign="middle" hAlign="center"/>
+            <value>
+               <text>HEADER</text>
+            </value>
+            <bind match="dataRef" ref="$.basicNotice.formTitle"/>
+            <assist>
+               <speak disable="1"/>
+            </assist>
+         </field>
+         <bind match="none"/>
+         <?templateDesigner isFragment yes?>
+         <?templateDesigner fragmentTitle StandardLetterHeader?>
+         <?templateDesigner expand 1?></subform>
+      <desc>
+         <text name="version">10.0.2.20120224.1.869952.867557</text>
+      </desc>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 20 5 002400270028002B0035ADEHR?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner WidowOrphanControl 0?>
+   <?templateDesigner dciEncryptionHint 0?>
+   <?templateDesigner dciCommentingHint 0?>
+   <?templateDesigner dciReader91SubmitHint 0?>
+   <?templateDesigner SavePDFWithLog 0?>
+   <?originalXFAVersion http://www.xfa.org/schema/xfa-template/3.0/?>
+   <?templateDesigner Print-PrinterName PDFCreator?>
+   <?templateDesigner Print-Copies 1?>
+   <?templateDesigner Print-Collate 0?>
+   <?templateDesigner Print-PageRange all?>
+   <?templateDesigner Print-ProductionPrint 1?>
+   <?templateDesigner Print-DataFileName TestData.xml?>
+   <?templateDesigner Print-DuplexingOption simplex?>
+   <?templateDesigner Print-XDCFileName hppcl5e?>
+   <?templateDesigner Grid show:0, snap:0, units:0, color:ff8080, origin:(0,0), interval:(100000,166667), objsnap:0, guidesnap:0, pagecentersnap:0?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+   <?templateDesigner SaveTaggedPDF 0?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 0?>
+   <?templateDesigner DefaultPreviewDataFileName ..\..\PreviewData\Common_PreviewData.xml?>
+   <?templateDesigner Zoom 163?>
+   <?templateDesigner FormTargetVersion 33?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:1?></template>
+<config xmlns="http://www.xfa.org/schema/xci/3.0/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo>
+            <embed>0</embed>
+         </fontInfo>
+         <tagged>0</tagged>
+         <version>1.7</version>
+         <adobeExtensionLevel>8</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+   <psMap>
+      <font typeface="Calibri" psName="Calibri-Bold" weight="bold" posture="normal"/>
+      <font typeface="Calibri" psName="Calibri" weight="normal" posture="normal"/>
+      <font typeface="Symbol Std" psName="SymbolStd" weight="normal" posture="normal"/>
+   </psMap>
+</config>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale name="en_US" desc="English (United States)">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" xmlns:lcd="http://ns.adobe.com/livecycle/designer/" xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+         <xmp:MetadataDate>2022-06-09T21:02:40Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Designer 6.3</xmp:CreatorTool>
+         <pdf:Producer>Designer 6.3</pdf:Producer>
+         <xmpMM:DocumentID>uuid:68dc64df-7143-483f-967d-3b1e445923c2</xmpMM:DocumentID>
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>10.0.2.20120224.1.869952.867557</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+         <lcd:fragmentCatalog>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <dc:title>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default">StandardLetterHeader</rdf:li>
+                     </rdf:Alt>
+                  </dc:title>
+                  <dc:description>
+                     <rdf:Alt>
+                        <rdf:li xml:lang="x-default"/>
+                     </rdf:Alt>
+                  </dc:description>
+                  <dc:identifier>$template.formData.StandardLetterHeader</dc:identifier>
+                  <lcd:fragmentRole>Subform</lcd:fragmentRole>
+               </rdf:li>
+            </rdf:Seq>
+         </lcd:fragmentCatalog>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="formData">
+      <formData dd:model="unordered">
+         <basicNotice>
+            <mailTracking dd:minOccur="0">
+               <acs dd:minOccur="0">
+                  <banner dd:minOccur="0" dd:nullType="exclude"/>
+                  <trackingNumBarcode/>
+                  <trackingNumHuman dd:minOccur="0" dd:nullType="exclude"/>
+               </acs>
+               <certMail dd:minOccur="0">
+                  <banner dd:minOccur="0" dd:nullType="exclude"/>
+                  <trackingNumBarcode/>
+                  <trackingNumHuman dd:minOccur="0" dd:nullType="exclude"/>
+               </certMail>
+            </mailTracking>
+            <docId dd:minOccur="0" dd:nullType="exclude"/>
+            <docRouteId dd:minOccur="0" dd:nullType="exclude"/>
+            <formNumber dd:minOccur="0" dd:nullType="exclude"/>
+            <formTitle dd:minOccur="0" dd:nullType="exclude"/>
+            <noticeDate dd:minOccur="0" dd:nullType="exclude"/>
+            <noticeId dd:minOccur="0" dd:nullType="exclude"/>
+            <taxpayerIdLabel dd:minOccur="0" dd:nullType="exclude"/>
+            <taxYearLabel dd:minOccur="0" dd:nullType="exclude"/>
+            <returnLine dd:minOccur="0" dd:maxOccur="-1" dd:nullType="exclude"/>
+            <taxYear dd:minOccur="0" dd:nullType="exclude"/>
+            <taxYears dd:minOccur="0" dd:maxOccur="-1" dd:nullType="exclude"/>
+            <dln dd:minOccur="0" dd:nullType="exclude"/>
+            <accountPeriods dd:minOccur="0">
+               <accountPeriod dd:maxOccur="-1">
+                  <apb/>
+                  <ape/>
+               </accountPeriod>
+            </accountPeriods>
+            <taxYrs dd:minOccur="0">
+               <taxYear dd:maxOccur="-1"/>
+            </taxYrs>
+            <returnAddress dd:minOccur="0">
+               <returnLine dd:maxOccur="-1"/>
+            </returnAddress>
+            <userInfo dd:minOccur="0" dd:nullType="exclude">
+               <userName dd:minOccur="0" dd:nullType="exclude"/>
+               <userTitle dd:minOccur="0" dd:nullType="exclude"/>
+               <userInitials dd:minOccur="0" dd:nullType="exclude"/>
+               <userEmail dd:minOccur="0" dd:nullType="exclude"/>
+               <userPhone dd:minOccur="0" dd:nullType="exclude"/>
+               <userFax dd:minOccur="0" dd:nullType="exclude"/>
+               <userSection dd:minOccur="0" dd:nullType="exclude"/>
+               <userPuc dd:minOccur="0" dd:nullType="exclude"/>
+               <userMailStop dd:minOccur="0" dd:nullType="exclude"/>
+               <userSupervisor dd:minOccur="0" dd:nullType="exclude">
+                  <name dd:minOccur="0" dd:nullType="exclude"/>
+                  <phone dd:minOccur="0" dd:nullType="exclude"/>
+               </userSupervisor>
+               <userManager dd:minOccur="0" dd:nullType="exclude">
+                  <name dd:minOccur="0" dd:nullType="exclude"/>
+                  <phone dd:minOccur="0" dd:nullType="exclude"/>
+               </userManager>
+            </userInfo>
+         </basicNotice>
+      </formData>
+   </dd:dataDescription>
+</xfa:datasets></xdp:xdp>
