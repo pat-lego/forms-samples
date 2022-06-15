@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4490e6f0-55d3-470b-a137-282dae70f634">
+    <jcr:content
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2022-06-15T19:48:39.333Z"
+        jcr:lastModifiedBy="fd-service"
+        jcr:primaryType="dam:AssetContent"
+        sling:resourceType="fd/fm/xfaforms/render"
+        type="xfaForm"
+        xfaForm="{Long}1">
+        <metadata
+            dam:extracted="{Date}2022-06-15T19:48:34.816Z"
+            dam:sha1="a08d860735710e9b7820b611704ea7965877d5b3"
+            dam:size="{Long}11674"
+            dc:format="application/vnd.adobe.xdp+xml"
+            jcr:lastModified="{Date}2022-06-15T19:48:33.885Z"
+            jcr:lastModifiedBy="fd-service"
+            jcr:mixinTypes="[mix:created,mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            allowedRenderFormat="BOTH"
+            author=""
+            availableInMobileApp="{Boolean}false"
+            description=""
+            name="AccountForm.xdp"
+            profile="/content/xfaforms/profiles/default"
+            title=""/>
+    </jcr:content>
+</jcr:root>

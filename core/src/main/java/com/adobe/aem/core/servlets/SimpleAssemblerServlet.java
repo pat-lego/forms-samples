@@ -50,7 +50,7 @@ public class SimpleAssemblerServlet extends SlingSafeMethodsServlet {
     public void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response)
             throws ServletException, IOException {
 
-                // Get a resource resolver for the supportfd user
+        // Get a resource resolver for the supportfd user
         Map<String, Object> user = new HashMap<String, Object>();
         user.put(ResourceResolverFactory.SUBSERVICE, ServiceUser.SERVICE_USER);
 
