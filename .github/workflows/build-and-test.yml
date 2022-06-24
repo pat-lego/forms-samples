@@ -2,10 +2,7 @@ name: Build and Test
 on:
   push:
     branches:
-      - feature/*
-  pull_request:
-    branches:
-      - feature/*
+      - master
 jobs:
   build_and_test:
     name: Java Build and Test
