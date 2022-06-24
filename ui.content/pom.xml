@@ -53,11 +53,11 @@
                     <group>com.adobe.aem</group>
                     <name>forms.enablement.ui.content</name>
                     <packageType>content</packageType>
-                    <accessControlHandling>merge</accessControlHandling>
+                    <!-- <accessControlHandling>merge</accessControlHandling> -->
                     <validatorsSettings>
                         <jackrabbit-filter>
                             <options>
-                                <validRoots>/conf,/content,/content/experience-fragments,/content/dam</validRoots>
+                                <validRoots>/conf,/content,/content/dam/formsanddocuments/test-xdp,/content/supportddx,/content/supportdata</validRoots>
                             </options>
                         </jackrabbit-filter>
                     </validatorsSettings>
